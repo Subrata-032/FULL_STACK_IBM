@@ -1,0 +1,83 @@
+.div1{
+    height:70px;
+    width: 100%;
+    background-color: rgb(49, 101, 205);
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.inner2{
+    display: flex;
+    margin-left: 73%;
+    width: 200px;
+    justify-content: space-evenly;
+    
+}
+.inner1{
+    padding-left: 10px;
+}
+
+.div2{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 244, 244);
+    
+}
+.div2_{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.innerdiv2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 3%;
+}
+#div2_1:hover{
+    background-image: url("https://plus.unsplash.com/premium_photo-1703689520237-3667a9b43453?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-size: 0px;
+    box-shadow: 2px 2px 10px black;
+    
+}
+#div2_2:active{
+    border-radius: 50%;
+    background-image: url("https://images.unsplash.com/photo-1738346441946-1a7ef573b9e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0MTh8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    font-size: 0px;
+}
+.footer{
+    background-color:rgb(49, 101, 205);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.middle{
+    background-color: rgb(218, 244, 244);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+#div2_3:hover{
+    background-image: url("https://plus.unsplash.com/premium_photo-1734640921345-6037f1c70e20?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-size: 0px;
+    border-radius: 50%;
+    transition: border-radius 2s ease 0.2s;
+
+}
