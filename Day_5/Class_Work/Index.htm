@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent p{
+            background-color: chartreuse;
+        }
+        #parent2 > p{
+            background-color: aqua;
+        }
+        #parent3>div>:nth-child(1)+h1{
+            background-color: chocolate;
+        }
+        #parent3>:nth-child(1)~h1{
+            background-color: blanchedalmond;
+        }
+        #parent3>div>p{
+            background-color: chartreuse;
+        }
+        #parent4{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            overflow: scroll;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <p>I am paragraph</p>
+        <div>
+            <p>child_1</p>
+            <p>child_2</p>
+            <div>
+                <p>grand child_1</p>
+                <p>grand child_2</p>
+            </div>
+        </div>
+    </div>
+    <div id="parent2">
+        <p>I am paragraph</p>
+        <div>
+            <p>child_1</p>
+            <p>child_2</p>
+            <div>
+                <p>grand child_1</p>
+                <p>grand child_2</p>
+            </div>
+        </div>
+    </div>
+    <div id="parent3">
+        <p>I am paragrap</p>
+        <h1>Subarata Bera</h1>
+        <h1>Subrata Bera</h1>
+        <p>I am paragrap</p>
+        <p>I am paragrap</p>
+        <p>I am paragrap</p>
+        <div>
+            <p>I am paragraph</p>
+            <h1>Subarata Bera</h1>
+            <p>I am paragraph</p>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <div id="parent4">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum illo quasi cum laboriosam quae unde deserunt ipsum pariatur libero veritatis repellendus culpa nisi ullam reprehenderit, incidunt excepturi mollitia tenetur amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto odio possimus quibusdam eum odit rerum reprehenderit sint totam assumenda, repudiandae illo sapiente voluptatem facere commodi necessitatibus voluptatibus deleniti accusantium.</p>
+    </div>
+    
+</body>
+</html>
