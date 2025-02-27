@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie List - Movie Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Movie List</h1>
+
+    <input type="text" id="searchBar" placeholder="Search by name or genre" oninput="filterMovies()">
+
+    <table id="movieTable">
+        <thead>
+            <tr>
+                <th>Poster</th>
+                <th>Movie Name</th>
+                <th>Description</th>
+                <th>Year</th>
+                <th>IMDb Rating</th>
+                <th>Genre</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="movieList"></tbody>
+    </table>
+
+    <p id="noMoviesMessage">No movies added yet!</p>
+
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+
+    <script src="script.js"></script>
+    <script>
+        displayMovies();
+    </script>
+</body>
+</html>
