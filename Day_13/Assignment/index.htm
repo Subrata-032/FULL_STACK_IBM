@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Listing - E-Commerce Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Product Listing</h1>
+        <input type="text" id="searchBar" placeholder="Search products..." />
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Books">Books</option>
+            <option value="Accessories">Accessories</option>
+        </select>
+        <select id="priceSort">
+            <option value="">Sort by Price</option>
+            <option value="low">Low to High</option>
+            <option value="high">High to Low</option>
+        </select>
+        <button onclick="goToCart()">Go to Cart</button>
+    </header>
+
+    <div id="productList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

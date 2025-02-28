@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Your Shopping Cart</h1>
+    <table border="1" id="cartTable">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Quantity</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2 id="totalAmount">Total: $0</h2>
+
+    <button onclick="purchase()">Purchase</button>
+    <button onclick="window.location.href='index.html'">Back to Products</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
