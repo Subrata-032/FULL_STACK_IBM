@@ -30,6 +30,10 @@ function getData(){
         let button1=document.createElement("button");
         button1.innerText="Remove Item";
 
+        button1.addEventListener("click", ()=>{
+            deleteFun(el, index);
+        })
+
         button1.addEventListener("click",function(){
             alert("Item removed successfully");
         })
@@ -51,11 +55,11 @@ function removeElement(el){
 }
 let container=document.querySelector("#full_cart");
 
-function removeFromCart(itemId){
-    let parseData=JSON.parse(localStorage.getItem("cartData")) || [];
-    let updatedData = parseData.filter((item,index)=>index !== itemId);
-    localStorage.setItem("cartData",JSON.stringify(updatedData));
-    container.innerHTML ="";
+function deleteFun(el, index){
+    // console.log("delete function is called");
+    let deletedCartData = JSON.parse(localStorage.getItem("DataCart")) || [];
+    deletedCartData.splice(index, 1);
+    console.log(deletedCartData)
+    localStorage.setItem("DataCart", JSON.stringify(deletedCartData));
     getData();
-
 }

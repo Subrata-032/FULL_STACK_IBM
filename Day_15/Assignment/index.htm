@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="cart.htm" style="color: aqua;">Go to Cart</a></li>
+        </ul>
+    </nav>
+    <div id="header">
+        <div id="inner1">
+            <h1>Product Listing</h1>
+        </div>
+        <div id="inner2">
+            <input type="text" placeholder="Serach" id="search">
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Home & Kitchen">Home & Kitchen</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Accessories">Accessories</option>
+            </select>
+            <select id="priceSort">
+                <option value="">Sort by Alphabetically</option>
+                <option value="asc">Ascending</option>
+                <option value="dec">Decending</option>
+            </select>
+            <select id="priceRangeFilter">
+                <option value="all">All</option>
+                <option value="below-5000">Below ₹5000</option>
+                <option value="5000-10000">₹5000 - ₹10000</option>
+                <option value="above-10000">Above ₹10000</option>
+            </select>
+            <!-- <button id="cart">Go to Cart</button> -->
+        </div>
+    
+    
+    </div>
+    <div id="products">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
