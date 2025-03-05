@@ -1,0 +1,130 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(166, 234, 232);
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: 0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+
+        li {
+            font-size: 18px;
+            height: 100%;
+
+            a {
+                text-decoration: none;
+                color: white;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                padding: 0 15px;
+            }
+        }
+    }
+}
+/* #cart{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(234, 226, 137);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer; */
+
+
+#inner1{
+    text-align: center;
+    margin-top:60px;
+    /* background-color: rgb(112, 182, 235); */
+    
+}
+#categoryFilter{
+    width: 140px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#priceSort{
+    width: 150px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-box{
+    height:370px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 20px;
+    line-height: 0.9em;
+    margin-top: 20px;
+    background-color: rgb(237, 236, 229);
+}
+.product-box>h4{
+    margin-top: 2px;
+    
+}
+.product-box>img{
+    height: 150px;
+    width: 60%;
+    object-fit: contain;
+}
+.product-box>img:hover{
+    box-shadow: 10px 5px 15px black;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.product-box>button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: none;
+    background-color:rgb(196, 207, 207);
+    
+}
+
+.product-box>button:hover{
+   cursor: pointer;
+   background-color:rgb(241, 216, 73);
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 600;
+
+}
+#search{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+#priceRangeFilter{
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: 750;
+    font-size: 16px;
+}
