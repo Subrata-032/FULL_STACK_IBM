@@ -25,7 +25,7 @@ submit.addEventListener("click",function(e){
     div.className="priceDiv";
 
     let span=document.createElement("span");
-    span.innerText=`Total Amount Payable is: $${Math.ceil(calculateTotalPrice())}`;
+    span.innerText=`Total Amount Payable is: $${Math.ceil(calTotalPrice())}`;
     span.className="priceSpan";
 
     let select=document.createElement("select");

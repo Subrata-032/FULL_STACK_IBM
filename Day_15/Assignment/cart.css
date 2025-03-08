@@ -79,3 +79,6 @@
    font-size: 15px;
    font-weight: 600;
 }
+.EachProduct>#button_{
+    margin-left: 7px;
+}

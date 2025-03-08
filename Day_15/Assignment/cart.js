@@ -33,9 +33,10 @@ function getData() {
         button.innerText = "Purchase";
 
         button.addEventListener("click", function () {
-          window.location.href = "checkout.html";
+          window.location.href = "checkout.htm";
         });
         let button2 = document.createElement("button");
+        button2.id="button_";
         button2.innerText = "Remove";
         button2.addEventListener("click", function () {
           removeFromCart(el, index);

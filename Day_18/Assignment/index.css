@@ -65,13 +65,19 @@
     border-radius:12px 0 0 12px;
     display: flex;
 }
-#search{
+#searchinput{
     height: 30px;
     width: 540px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 12px 0 0 12px;
+    font-size: 25px;
 
     
+}
+#search_button{
+    width:100px ;
+    height: 35px;
+    border-radius: 0 12px 12px 0;
 }
 #border{
     height: 30px;
@@ -146,9 +152,10 @@
     margin-left: 23px;
 }
 #newdiv{
-    height: 800px;
-    width: 250px;
+    height: 700px;
+    width: 280px;
     border: 1px solid black;
+    overflow: scroll;
 }
 #newinner1{
     height: 90px;
@@ -279,33 +286,33 @@
     margin-left: 20px;
 }
 #history{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #like{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #watch{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #playlist{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #download{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #video{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #newinner3{
@@ -318,8 +325,8 @@
 
 }
 #show{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     margin-top: 4px;
 }
 #show_logo{
@@ -327,6 +334,240 @@
     margin-top: 4px;
     margin-left: 20px;
 }
-#inner2nddiv{
+#div2nd{
+    height: 700px;
+    width: 100%;
+    border: 1px solid black;
+}
+#main{
+    display: flex;
+}
+/* #div2nd{
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   overflow: scroll;
+   gap: 20px;
+}
+.video{
+    height: 350px;
+    
+} */
+#trending_logo{
+    width: 70px;
+}
+#shopping_logo{
+    width: 70px;
+}
+#news_logo{
+    width: 70px;
+}
+#gaming_logo{
+    width: 70px;
+}
+#prodcast_logo{
+    width: 70px;
+}
+#fashion_logo{
+    width: 70px;
+}
+#courses_logo{
+    width: 70px;
+}
+#movies_logo{
+    width: 70px;
+}
+
+#sports_logo{
+    width: 70px;
+}
+#live_logo{
+    width: 70px;
+}
+
+
+#trending_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#shopping_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#news_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#gaming_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#prodcast_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#fashion_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#courses_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#movies_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+#sports_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#live_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#music_logo>i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+#music_logo{
+    width: 70px;
+}
+#music{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#prodcast{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#live{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#fashion{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#gaming{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#sports{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#movies{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#courses{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#news{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#shopping{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#trending{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 4px;
+}
+#div2nd{
+    height: auto;
+    width: 95%;
+}
+#body1st{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 10px;
+    z-index: 1;
+    position: sticky;
+    margin-top: 10px;
+}
+
+.content{
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 231, 231);
+    padding-top: 10px;
     
 }
+/* lower-body */
+#body2nd{
+    height: 900px;
+    width: 100%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: scroll;
+    gap: 20px;
+    
+    
+}
+/* #loading{
+    height: 900px;
+    width: 100%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    /* display:grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: scroll; */
+
+/* #loading{
+    height: 450px;
+    width: 550px;
+    border: 1px solid black;
+} */
+.video{
+    height: 350px;
+    width: 100%;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.video>img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
