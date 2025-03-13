@@ -22,7 +22,7 @@ app.get("/products/:id",(req,res)=>{
         
       }
 });
-// add product
+
 app.post("/products",(req,res)=>{
     const { title, price, category } = req.body; 
     if (!title || !price || !category) { 
