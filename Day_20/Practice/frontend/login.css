@@ -8,15 +8,14 @@ body {
     margin: 0;
 }
 
-
 form {
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 320px;
+    width: 300px;
 }
 
 input {
@@ -25,7 +24,7 @@ input {
     margin: 10px 0;
     border: none;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3);
     color: #fff;
     font-size: 16px;
 }
@@ -34,13 +33,12 @@ input::placeholder {
     color: #ddd;
 }
 
-
 button {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background: #00c853;
+    background: #ff7b00;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -48,5 +46,5 @@ button {
 }
 
 button:hover {
-    background: #00e676;
+    background: #ff9800;
 }
